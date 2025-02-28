@@ -565,3 +565,14 @@
       max-width: 100%;
     }
   }
+
+/* Add this to your CSS */
+.contact-info .social-link {
+    color: var(--primary-color); /* Use your primary color instead of white */
+    background-color: rgba(37, 99, 235, 0.1); /* Light blue background */
+  }
+  
+  .contact-info .social-link:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
+  }
